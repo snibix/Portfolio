@@ -5,6 +5,22 @@ const SlideIn = {
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.8 },
 };
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.06,
+    },
+  },
+};
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
+};
+
 const links = [
   { name: "Mes Compétences", href: "#skills" },
   { name: "Mes Formations", href: "#training" },
@@ -15,6 +31,9 @@ const links = [
 ];
 
 export default function HeaderSection() {
+  const name = "Jaworski Damien";
+  const job = "Développeur Web";
+
   return (
     <section className="relative isolate overflow-hidden bg-gray-900 py-24 sm:py-32">
       <div
@@ -43,10 +62,26 @@ export default function HeaderSection() {
       </div>
       <motion.div {...SlideIn} className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-white sm:text-6xl">
-            Jaworski Damien <br />
-            Développeur Web
-          </h2>
+          <motion.h2
+            className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-white sm:text-6xl"
+            variants={container}
+            initial="hidden"
+            animate="show"
+          >
+            {name.split("").map((char, i) => (
+              <motion.span key={i} variants={item}>
+                {char === " " ? "\u00A0" : char}
+              </motion.span>
+            ))}
+
+            <br />
+
+            {job.split("").map((char, i) => (
+              <motion.span key={i} variants={item}>
+                {char === " " ? "\u00A0" : char}
+              </motion.span>
+            ))}
+          </motion.h2>
           <p className="mt-8 text-lg font-medium text-pretty text-gray-300 sm:text-xl/8">
             Je suis un Développeur web passionné par la création d'applications
             modernes et réactives. Mon parcours en développement web a commencé
