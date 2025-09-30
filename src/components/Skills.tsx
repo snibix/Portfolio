@@ -48,12 +48,12 @@ export default function Skills() {
 
   const icons = [
     {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
       alt: "logo-Html",
       title: "HTML",
     },
     {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg",
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg",
       alt: "logo-Css",
       title: "CSS",
     },
@@ -63,24 +63,24 @@ export default function Skills() {
       title: "JavaScript",
     },
     {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
+      alt: "Logo-Ts",
+      title: "TypeScript",
+    },
+    {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg",
       alt: "logo-php",
       title: "PHP",
     },
     {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
+      alt: "Logo-Java",
+      title: "Java",
+    },
+    {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
       alt: "logo-mysql",
       title: "MySQL",
-    },
-    {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
-      alt: "logo-bootstrap",
-      title: "Bootstrap",
-    },
-    {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
-      alt: "logo-tailwinds",
-      title: "Tailwinds",
     },
     {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
@@ -93,9 +93,30 @@ export default function Skills() {
       title: "React-Router",
     },
     {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+      alt: "Logo-Sass",
+      title: "Sass",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg",
+      alt: "logo-bootstrap",
+      title: "Bootstrap",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+      alt: "logo-tailwinds",
+      title: "Tailwinds",
+    },
+
+    {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg",
       alt: "logo-github",
       title: "Github",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+      alt: "Logo-figma",
+      title: "Figma",
     },
   ];
 
