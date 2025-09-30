@@ -118,6 +118,11 @@ export default function Skills() {
       alt: "Logo-figma",
       title: "Figma",
     },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+      alt: "Logo-VsCode",
+      title: "Vs Code",
+    },
   ];
 
   return (
