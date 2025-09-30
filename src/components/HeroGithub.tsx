@@ -99,14 +99,14 @@ export default function GithubSection() {
 
         {/* Derniers projets */}
         <motion.div
-          className="lg:w-2/3 overflow-x-hidden"
+          className="lg:w-2/3 overflow-x-hidden lg:h-170 h-230"
           initial={{ opacity: 0, x: 100 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true, amount: 0.2 }}
         >
           <h3 className="text-xl font-semibold mb-4">Latest Projects</h3>
-          <ul className="space-y-2 cursor-pointer">
+          <ul className="space-y-3 cursor-pointer">
             {repos.map((repo) => (
               <motion.li
                 key={repo.id}
