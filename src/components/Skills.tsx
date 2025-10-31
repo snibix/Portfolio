@@ -73,14 +73,14 @@ export default function Skills() {
       title: "PHP",
     },
     {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg",
-      alt: "Logo-Java",
-      title: "Java",
-    },
-    {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg",
       alt: "logo-mysql",
       title: "MySQL",
+    },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      alt: "Logo-Nextjs",
+      title: "Jextjs",
     },
     {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",

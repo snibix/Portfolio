@@ -14,6 +14,7 @@
     "@tailwindcss/vite": "^4.1.13",
     "daisyui": "^5.1.9",
     "devicon": "^2.17.0",
+    "gsap": "^3.13.0",
     "motion": "^12.23.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
