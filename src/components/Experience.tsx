@@ -61,27 +61,51 @@ export default function Experiences() {
               ref={ref}
               {...SlideLeft}
             >
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight text-balance text-white leading-tight">
-                Incubateur de compétences <br />
-                <span className="text-purple-300">DM Concept</span> <br />
-                <span className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 font-normal">
-                  03/2025 - 09/2025
+              <h3 className="text-sm md:text-2xl lg:text-3xl font-semibold tracking-tight text-white leading-tight">
+                Développeur Web (CDD)
+                <br />
+                <span className="text-purple-300 text-md md:text-xl">
+                  Dm-Concept — Metz
+                </span>
+                <br />
+                <span className="text-base text-md md:text-xl text-gray-400 font-normal">
+                  Mars 2025 – Septembre 2025
                 </span>
               </h3>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-pretty text-gray-300">
-                Lors de mon stage chez dmConcept, j'ai contribué au
-                développement de leur solution SaaS en créant deux
-                fonctionnalités clés : un composant interactif pour la
-                configuration de fenêtres sur mesure et un système d'export SVG
-                depuis des fichiers JSON. J'ai également travaillé sur
-                l'intégration PrestaShop, la modification de thèmes e-commerce
-                et l'optimisation responsive des interfaces. En parallèle, j'ai
-                développé un configurateur intégré au SaaS et réalisé la
-                stylisation d'interfaces pour les présentations client. Ce stage
-                m'a permis d'approfondir mes compétences en développement SaaS,
-                d'acquérir une expertise en intégration e-commerce et de me
-                familiariser avec les enjeux techniques d'une solution B2B en
-                production.
+
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-300 mt-4">
+                <strong className="text-purple-200">
+                  Missions principales :
+                </strong>
+                <br />
+                <strong>- Intégration front-end responsive :</strong>{" "}
+                développement de démonstrations clients en CSS responsive,
+                optimisant l'expérience utilisateur sur mobile, tablette et
+                desktop.
+                <br />
+                <br />
+                <strong>
+                  - Développement de configurateur interactif :
+                </strong>{" "}
+                création d’un outil de personnalisation avec{" "}
+                <span className="text-purple-300">React</span>,{" "}
+                <span className="text-purple-300">TypeScript</span> et{" "}
+                <span className="text-purple-300">Konva.js</span>, permettant
+                aux clients de visualiser leurs fenêtres sur mesure en temps
+                réel.
+                <br />
+                <br />
+                <strong>- Migration CSS PrestaShop :</strong> adaptation et
+                intégration du style de démonstrations clients depuis un
+                environnement de démo vers{" "}
+                <span className="text-purple-300">PrestaShop production</span>,
+                garantissant la cohérence visuelle.
+                <br />
+                <br />
+                <strong>- Personnalisation e-commerce :</strong> intégration et
+                optimisation responsive d’une boutique{" "}
+                <span className="text-purple-300">PrestaShop</span> (refonte du
+                thème, personnalisation de la navigation, corrections CSS).
               </p>
             </motion.div>
 
@@ -90,21 +114,50 @@ export default function Experiences() {
               ref={ref}
               {...SlideRight}
             >
-              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight text-balance text-white leading-tight">
-                Stage de formation <br />
-                <span className="text-purple-300">KR-Barber</span> <br />
+              <h3 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold tracking-tight text-white leading-tight">
+                Stage Développeur Web
+                <br />
+                <span className="text-purple-300 text-md md:text-xl">
+                  K-R Barber — Petite-Rosselle
+                </span>
+                <br />
                 <span className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 font-normal">
-                  01/2023 - 02/2023
+                  Janvier 2023 – Février 2023
                 </span>
               </h3>
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-pretty text-gray-300">
-                Formation de 11 mois, axée sur les fondamentaux du développement
-                web avec des langages et technologies essentiels : HTML, CSS,
-                JavaScript, PHP et MySQL. Durant cette formation, j'ai réalisé
-                trois projets pratiques, renforçant mes compétences techniques
-                et mon esprit de conception : un projet fil rouge permettant
-                d'approfondir progressivement les acquis, un site e-commerce
-                complet, et un site de suite au stage.
+
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-300 mt-4">
+                <strong className="text-purple-200">
+                  Missions principales :
+                </strong>
+                <br />
+                <strong>
+                  - Conception et intégration des maquettes :
+                </strong>{" "}
+                création des interfaces du site vitrine en{" "}
+                <span className="text-purple-300">HTML</span>,{" "}
+                <span className="text-purple-300">CSS</span> et Responsive
+                Design pour offrir une expérience utilisateur optimale sur tous
+                les supports.
+                <br />
+                <br />
+                <strong>
+                  - Développement de fonctionnalités interactives :
+                </strong>{" "}
+                mise en place d’un système de réservation en ligne et d’un
+                back-office pour la gestion des contenus.
+                <br />
+                <br />
+                <strong>
+                  - Adaptation et intégration front-end/back-end :
+                </strong>{" "}
+                connexion des pages à la base de données et intégration des
+                fonctionnalités full-stack pour un site pleinement opérationnel.
+                <br />
+                <br />
+                <strong>- Gestion de projet client :</strong> ajustement du site
+                selon les besoins et retours du salon, en respectant les
+                contraintes d’un projet réel.
               </p>
             </motion.div>
           </div>
