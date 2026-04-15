@@ -78,15 +78,16 @@ export default function Skills() {
       title: "MySQL",
     },
     {
-      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
-      alt: "Logo-Nextjs",
-      title: "Jextjs",
-    },
-    {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
       alt: "logo-react",
       title: "React",
     },
+    {
+      src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+      alt: "Logo-Nextjs",
+      title: "Jextjs",
+    },
+
     {
       src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactrouter/reactrouter-original.svg",
       alt: "logo-react-router",

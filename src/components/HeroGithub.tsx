@@ -66,7 +66,7 @@ export default function GithubSection() {
           <img
             src={profile.avatar_url}
             alt={profile.name}
-            className="w-32 h-32 rounded-full border-4 border-indigo-500 shadow-lg"
+            className="w-32 h-32 rounded-full border-4 border-blue-600 shadow-lg"
           />
           <h2 className="mt-4 text-2xl font-bold">{profile.name}</h2>
           <p className="text-gray-900">@{profile.login}</p>
@@ -87,7 +87,7 @@ export default function GithubSection() {
             href={profile.html_url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-white mt-6 inline-block px-4 py-2 bg-gradient-to-r from-indigo-900 to-blue-950 hover:opacity-90 rounded"
+            className="text-white mt-6 inline-block px-4 py-2 bg-gradient-to-r from-blue-600 to-emerald-700 hover:opacity-90 rounded"
             whileHover={{
               y: -3,
             }}

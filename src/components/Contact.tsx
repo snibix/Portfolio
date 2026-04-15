@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
       <div className="flex justify-center">
         <motion.a
           href="mailto:damien.dev2022@gmail.com"
-          className="text-white font-semibold py-3 px-6 rounded-lg bg-gradient-to-r from-indigo-900 to-blue-950 hover:opacity-90"
+          className="text-white font-semibold py-3 px-6 rounded-lg bg-gradient-to-r from-blue-600 to-emerald-700 hover:opacity-90"
           whileHover={{
             y: -3,
           }}
