@@ -76,18 +76,20 @@ export default function Experiences() {
                 </span>
               </h3>
 
-              <p className="text-gray-300">
+              <div className="text-gray-300">
                 <strong className="text-purple-200">
                   Missions principales :
                 </strong>
-                <br />
-                - Intégration front-end responsive
-                <br />
-                - Configurateur interactif (React, TypeScript, Konva.js)
-                <br />
-                - Migration CSS PrestaShop
-                <br />- Personnalisation e-commerce
-              </p>
+
+                <ul className="mt-2 list-disc list-inside space-y-1">
+                  <li>Intégration front-end responsive</li>
+                  <li>
+                    Configurateur interactif (React, TypeScript, Konva.js)
+                  </li>
+                  <li>Migration CSS PrestaShop</li>
+                  <li>Personnalisation e-commerce</li>
+                </ul>
+              </div>
             </motion.div>
 
             {/* Expérience 2 */}
@@ -99,29 +101,28 @@ export default function Experiences() {
               className="w-full lg:max-w-[45%] xl:max-w-[40%] text-center lg:text-left space-y-4 sm:space-y-6"
             >
               <h3 className="text-lg md:text-2xl lg:text-3xl font-semibold text-white">
-                Stage Développeur Web
+                Développeur Web / Intégrateur Front-end (Micro-entrepreneur /
+                Freelance)
                 <br />
-                <span className="text-purple-300">
-                  K-R Barber — Petite-Rosselle
-                </span>
+                <span className="text-purple-300">Behren-lès-Forbach</span>
                 <br />
                 <span className="text-gray-400 font-normal">
-                  Janvier 2023 – Février 2023
+                  Décembre 2025 – Aujourd’hui
                 </span>
               </h3>
 
-              <p className="text-gray-300">
+              <div className="text-gray-300">
                 <strong className="text-purple-200">
                   Missions principales :
                 </strong>
-                <br />
-                - Intégration HTML / CSS responsive
-                <br />
-                - Système de réservation
-                <br />
-                - Connexion base de données
-                <br />- Gestion projet client
-              </p>
+
+                <ul className="mt-2 list-disc list-inside space-y-1">
+                  <li>Personnalisation de thèmes Shopify</li>
+                  <li>Adaptation UI / responsive à partir de maquettes</li>
+                  <li>Corrections graphiques et optimisation UX</li>
+                  <li>Développement d’un projet SaaS personnel</li>
+                </ul>
+              </div>
             </motion.div>
           </div>
         </div>
