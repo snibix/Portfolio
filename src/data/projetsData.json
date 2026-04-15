@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "title": "Composant interactif",
+    "date": "2026-01-01",
+    "img": "/Portfolio/img/exemple-fenetre-01.png",
+    "description": "Développement d'un composant interactif pour la configuration de fenêtres sur mesure dans une application SaaS.",
+    "longDescription": "Au sein de l'entreprise, j'ai participé au développement d'une fonctionnalité clé intégrée à leur solution SaaS de configuration de fenêtres sur mesure. Mon rôle consistait à concevoir un composant interactif permettant aux utilisateurs de visualiser en temps réel leurs choix : dimensions de la fenêtre, ajout de petits-bois, soubassement, traverses, type et sens d'ouverture, nombre de vantaux ou encore modèles spécifiques comme les fenêtres avec arche. Cette fonctionnalité avait pour objectif d'améliorer l'expérience utilisateur en rendant la personnalisation intuitive et visuelle, tout en garantissant une parfaite intégration avec l'interface existante.",
+    "images": [
+      "/Portfolio/img/exemple-fenetre-01.png",
+      "/Portfolio/img/exemple-fenetre-02.png",
+      "/Portfolio/img/exemple-fenetre-03.png",
+      "/Portfolio/img/exemple-fenetre-04.png"
+    ],
+    "objectif": "Intégrer une nouvelle fonctionnalité de configuration visuelle des fenêtres sur mesure afin d'enrichir l'offre SaaS de l'entreprise. L'ajout de ce module avait pour but de répondre à une demande client stratégique, d'améliorer la personnalisation du produit et de renforcer la compétitivité de la solution sur le marché.",
+    "context": "Projet professionnel - Développement d'une fonctionnalité SaaS stratégique",
+    "features": [
+      "Visualisation temps réel des configurations",
+      "Personnalisation des dimensions fenêtres",
+      "Ajout interactif de petits-bois",
+      "Configuration soubassement et traverses",
+      "Choix du type et sens d'ouverture",
+      "Gestion du nombre de vantaux variable",
+      "Support des modèles spéciaux (arche)",
+      "Intégration seamless à l'interface existante"
+    ],
+    "challenges": [
+      "Intégration dans une architecture SaaS existante",
+      "Performance en temps réel pour les visualisations",
+      "Gestion de configurations complexes avec KonvaJS",
+      "Maintien de la cohérence UX avec l'interface existante",
+      "Optimisation pour différents types de fenêtres"
+    ],
+    "results": [
+      "Fonctionnalité clé intégrée avec succès",
+      "Amélioration significative de l'expérience utilisateur",
+      "Satisfaction client élevée",
+      "Renforcement de la compétitivité produit",
+      "Module réutilisable pour futures évolutions"
+    ],
+    "technologies": [
+      "html",
+      "css",
+      "js",
+      "react",
+      "bootstrap",
+      "konvajs"
+    ],
+    "git": "https://github.com/snibix"
+  },
+  {
+    "id": 2,
+    "title": "Micro SaaS — Générateur de recettes",
+    "date": "2026-09-01",
+    "img": "/Portfolio/img/omq-1.png",
+    "description": "Développement d'un micro SaaS permettant de générer des recettes personnalisées à partir des ingrédients disponibles, avec gestion des abonnements via Stripe.",
+    "longDescription": "J'ai conçu et développé de A à Z un micro SaaS de génération de recettes culinaires. L'application permet aux utilisateurs de saisir les ingrédients qu'ils ont sous la main et d'obtenir instantanément des recettes adaptées, générées par intelligence artificielle. Le projet intègre un système d'authentification, une gestion des abonnements avec Stripe, ainsi qu'une interface moderne et responsive. Déployé sur Vercel, le produit est entièrement autonome et monétisable.",
+    "images": [
+      "/Portfolio/img/omq-1.png",
+      "/Portfolio/img/omq-2.png",
+      "/Portfolio/img/omq-3.png",
+      "/Portfolio/img/omq-4.png"
+    ],
+    "objectif": "Créer un produit SaaS complet et autonome, de la conception au déploiement, en intégrant une génération de recettes par IA, une expérience utilisateur soignée et un modèle de monétisation via abonnement Stripe.",
+    "context": "Projet personnel — Micro SaaS fullstack déployé en production",
+    "features": [
+      "Génération de recettes par IA selon les ingrédients disponibles",
+      "Système d'authentification utilisateur",
+      "Gestion des abonnements et paiements avec Stripe",
+      "Interface responsive et moderne avec Tailwind CSS",
+      "Historique des recettes générées",
+      "Filtres par régime alimentaire ou type de plat",
+      "Déploiement continu sur Vercel",
+      "Architecture fullstack avec Next.js"
+    ],
+    "challenges": [
+      "Intégration et optimisation des appels à l'API IA",
+      "Mise en place du tunnel de paiement et des webhooks Stripe",
+      "Gestion des quotas selon le plan d'abonnement",
+      "Conception d'une UX fluide et intuitive",
+      "Déploiement et configuration en production sur Vercel"
+    ],
+    "results": [
+      "Produit fonctionnel et déployé en production",
+      "Modèle de monétisation opérationnel via Stripe",
+      "Expérience utilisateur soignée et responsive",
+      "Architecture scalable et maintenable",
+      "Projet fullstack autonome de bout en bout"
+    ],
+    "technologies": [
+      "html",
+      "css",
+      "js",
+      "react",
+      "tailwind",
+      "nextjs",
+      "stripe"
+    ],
+    "git": "https://on-mange-quoi.vercel.app/"
+  }
+]
